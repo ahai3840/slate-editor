@@ -1,9 +1,9 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import {haveDataKeyEqualValueInSomeBlocks} from '@canner/slate-util-have';
-import blockAddData from '@canner/slate-helper-block-adddata';
-import blockClearDataByKey from '@canner/slate-helper-block-cleardatabykey';
+import {haveDataKeyEqualValueInSomeBlocks} from '../../slate-util-have/src/index';
+import blockAddData from '../../slate-helper-block-adddata/src/index';
+import blockClearDataByKey from '../../slate-helper-block-cleardatabykey/src/index';
 
 type Props = IconProps;
 
