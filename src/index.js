@@ -7,13 +7,13 @@ import Toolbar from './menuToolbar';
 import toolbar from 'slate-toolbar';
 import {BLOCKS} from '../plugins/slate-constant/src/index';
 import Bold, {BoldPlugin} from '../plugins/slate-icon-bold/src/index';
-import Clean from '../plugins/slate-icon-clean';
-import {TablePlugin} from '../plugins/slate-icon-table';
+import Clean from '../plugins/slate-icon-clean/src/index';
+import {TablePlugin} from '../plugins/slate-icon-table/src/index';
 import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '../plugins/slate-icon-header';
 import {ImagePlugin} from '../plugins/slate-icon-image';
 import {ListPlugin} from '../plugins/slate-icon-list';
 import Underline, {UnderlinePlugin} from '../plugins/slate-icon-underline';
-import {ParagraphPlugin} from '../plugins/slate-icon-shared';
+import {ParagraphPlugin} from '../plugins/slate-icon-shared/src/index';
 
 import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align';
 import EditList from 'slate-edit-list';

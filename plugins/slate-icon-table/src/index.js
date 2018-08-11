@@ -2,10 +2,10 @@
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import TablePicker, {nodeAttrs} from 'create-table-picker';
-import ToolbarIcon from '@canner/slate-icon-shared';
-import {TABLE, TABLE_ROW, TABLE_CELL} from '@canner/slate-constant/lib/blocks';
+import ToolbarIcon from '../../slate-icon-shared/src/index';
+import {TABLE, TABLE_ROW, TABLE_CELL} from '../../slate-constant/src/blocks';
 import EditTable from 'slate-edit-table';
-import {tableNode, tableRowNode, tableCellNode} from '@canner/slate-editor-renderer/lib/tableNode';
+import {tableNode, tableRowNode, tableCellNode} from '../../slate-editor-renderer/src/tableNode';
 import type {Data} from 'react-hovertable';
 import omit from 'lodash.omit';
 

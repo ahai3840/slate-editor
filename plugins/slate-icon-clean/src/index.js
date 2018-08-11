@@ -1,8 +1,8 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import removeMarkAll from '@canner/slate-helper-mark-removeall';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import removeMarkAll from '../../slate-helper-mark-removeall/src/index';
+import ToolbarIcon from '../../slate-icon-shared/src/index';
 import isHotkey from 'is-hotkey';
 
 export const CleanPlugin = () => {
