@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from './types';
-import {haveMarks} from '@canner/slate-util-have';
+import {haveMarks} from '../../slate-util-have/src/index';
 
 export default (type: string, defaultIcon: string) => (Mark: React.Element<*>) => {
   return class toggleMarkDecoration extends React.Component<IconProps> {
