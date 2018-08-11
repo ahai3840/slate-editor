@@ -63,12 +63,13 @@
     "build:flow": "flow-copy-source -v -i '**/test/**' src lib",
     "clean": "rimraf lib dist",
     "build": "babel src --out-dir lib && npm run build:flow",
-    "prepublish": "npm run clean && npm run check:src && npm run build && npm run build:dist",
+    "prepublish": "npm run clean && npm run check:src && npm run build",
     "check:src": "npm run lint",
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js --mode development",
     "build:docs": "./node_modules/.bin/webpack --config webpack.config.prod.js --mode production",
     "build:dist": "./node_modules/.bin/webpack --config webpack.config.umd.js --mode production",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "build:slate-constant":"babel ./plugins/slate-constant/src -d .plugin/slate-constant/lib --copy-files"
   },
   "pre-commit": [
     "lint"
@@ -98,6 +99,7 @@
     "slate-edit-list": "^0.11.2",
     "slate-toolbar": "^0.12.1",
     "slate-trailing-block": "^0.5.0",
-    "styled-components": "^3.2.3"
+    "styled-components": "^3.2.3",
+    "object-values": "^2.0.0"
   }
 }

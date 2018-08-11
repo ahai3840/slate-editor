@@ -5,21 +5,21 @@ import type {Value, Change} from 'slate';
 import styled from 'styled-components';
 import Toolbar from './menuToolbar';
 import toolbar from 'slate-toolbar';
-import {BLOCKS} from '@canner/slate-constant';
-import Bold, {BoldPlugin} from '@canner/slate-icon-bold';
-import Clean from '@canner/slate-icon-clean';
-import {TablePlugin} from '@canner/slate-icon-table';
-import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '@canner/slate-icon-header';
-import {ImagePlugin} from '@canner/slate-icon-image';
-import {ListPlugin} from '@canner/slate-icon-list';
-import Underline, {UnderlinePlugin} from '@canner/slate-icon-underline';
-import {ParagraphPlugin} from '@canner/slate-icon-shared';
+import {BLOCKS} from '../plugins/slate-constant/src/index';
+import Bold, {BoldPlugin} from '../plugins/slate-icon-bold/src/index';
+import Clean from '../plugins/slate-icon-clean';
+import {TablePlugin} from '../plugins/slate-icon-table';
+import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '../plugins/slate-icon-header';
+import {ImagePlugin} from '../plugins/slate-icon-image';
+import {ListPlugin} from '../plugins/slate-icon-list';
+import Underline, {UnderlinePlugin} from '../plugins/slate-icon-underline';
+import {ParagraphPlugin} from '../plugins/slate-icon-shared';
 
-import { AlignCenter, AlignLeft, AlignRight } from '@canner/slate-icon-align';
+import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align';
 import EditList from 'slate-edit-list';
 import TrailingBlock from 'slate-trailing-block'
 // default value
-import {DEFAULT as DEFAULTLIST} from '@canner/slate-helper-block-list';
+import {DEFAULT as DEFAULTLIST} from '../plugins/slate-helper-block-list';
 
 import "github-markdown-css";
 

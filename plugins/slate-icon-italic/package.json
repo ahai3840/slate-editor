@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "@canner/slate-icon-italic@1.3.0",
+      "/Users/yangkunhai/www/slate-editor"
+    ]
+  ],
+  "_from": "@canner/slate-icon-italic@1.3.0",
+  "_id": "@canner/slate-icon-italic@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-bFgfd7WT5RXPAccRrBNd+c4BUv0=",
+  "_location": "/@canner/slate-icon-italic",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@canner/slate-icon-italic@1.3.0",
+    "name": "@canner/slate-icon-italic",
+    "escapedName": "@canner%2fslate-icon-italic",
+    "scope": "@canner",
+    "rawSpec": "1.3.0",
+    "saveSpec": null,
+    "fetchSpec": "1.3.0"
+  },
+  "_requiredBy": [
+    "/slate-toolbar"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@canner/slate-icon-italic/download/@canner/slate-icon-italic-1.3.0.tgz",
+  "_spec": "1.3.0",
+  "_where": "/Users/yangkunhai/www/slate-editor",
+  "author": "",
+  "dependencies": {
+    "@canner/slate-editor-renderer": "^1.3.0",
+    "@canner/slate-icon-shared": "^1.3.0"
+  },
+  "description": "A slate icon for italic",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "react-test-renderer": "^16.2.0",
+    "slate": "^0.33.0"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@canner/slate-icon-italic",
+  "peerDependencies": {
+    "@canner/slate-constant": ">=^1.0.6",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": ">=^0.33.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublish": "../../node_modules/.bin/babel src -d lib --copy-files",
+    "test": "jest src"
+  },
+  "version": "1.3.0"
+}

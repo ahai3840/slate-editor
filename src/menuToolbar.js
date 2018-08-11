@@ -5,13 +5,13 @@ import styled from 'styled-components';
 import {Container} from './components/item';
 import FullScreenIcon from './components/fullScreen';
 
-import {AlignCenter, AlignLeft, AlignRight} from '@canner/slate-icon-align';
-import Table from '@canner/slate-icon-table';
-import {Header1, Header2, Header3} from '@canner/slate-icon-header';
-import Image from '@canner/slate-icon-image';
-import {OlList, UlList} from '@canner/slate-icon-list';
-import Undo from '@canner/slate-icon-undo';
-import Redo from '@canner/slate-icon-redo';
+import {AlignCenter, AlignLeft, AlignRight} from '../plugins/slate-icon-align';
+import Table from '../plugins/slate-icon-table';
+import {Header1, Header2, Header3} from '../plugins/slate-icon-header';
+import Image from '../plugins/slate-icon-image';
+import {OlList, UlList} from '../plugins/slate-icon-list';
+import Undo from '../plugins/slate-icon-undo';
+import Redo from '../plugins/slate-icon-redo';
 
 type Props = {
   value: Value,

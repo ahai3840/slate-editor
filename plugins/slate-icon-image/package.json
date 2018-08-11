@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "@canner/slate-icon-image@1.3.1",
+      "/Users/yangkunhai/www/canner-slate-editor"
+    ]
+  ],
+  "_from": "git+https://github.com/ahai3840/slate-icon-image.git",
+  "_id": "@canner/slate-icon-image@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha1-4La16neWzSHmoPFWowxhj2+w0H0=",
+  "_location": "/@canner/slate-icon-image",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@canner/slate-icon-image@git+https://github.com/ahai3840/slate-icon-image.git",
+    "name": "@canner/slate-icon-image",
+    "escapedName": "@canner%2fslate-icon-image",
+    "scope": "@canner",
+    "rawSpec": "git+https://github.com/ahai3840/slate-icon-image.git",
+    "saveSpec": "git+https://github.com/ahai3840/slate-icon-image.git",
+    "fetchSpec": "https://github.com/ahai3840/slate-icon-image.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/canner-slate-editor"
+  ],
+  "_resolved": "git+https://github.com/ahai3840/slate-icon-image.git#85f212c0a216d929d7a28490220cc0bd67117cfc",
+  "_spec": "@canner/slate-icon-image@git+https://github.com/ahai3840/slate-icon-image.git",
+  "_where": "/Users/yangkunhai/www/bar-webapp/node_modules/canner-slate-editor",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@canner/image-upload": "^0.12.0",
+    "@canner/slate-editor-renderer": "git+https://github.com/ahai3840/slate-editor-renderer.git",
+    "@canner/slate-icon-shared": "git+https://github.com/ahai3840/slate-icon-shared.git"
+  },
+  "deprecated": false,
+  "description": "Slate icon for image",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "jest": "^22.4.2",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@canner/slate-icon-image",
+  "peerDependencies": {
+    "@canner/slate-constant": ">=^1.0.6",
+    "antd": ">=3.2.0",
+    "react": "^0.14.0 || ^15.0.0 || 16.x",
+    "react-dom": "^0.14.0 || ^15.0.0 || 16.x",
+    "slate": ">=^0.33.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublish": "babel src -d lib --copy-files",
+    "test": "jest src"
+  },
+  "version": "1.3.1"
+}

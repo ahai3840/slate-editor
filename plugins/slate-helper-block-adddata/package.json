@@ -1,0 +1,45 @@
+{
+  "_args": [
+    [
+      "@canner/slate-helper-block-adddata@0.1.5",
+      "/Users/yangkunhai/www/slate-editor"
+    ]
+  ],
+  "_from": "@canner/slate-helper-block-adddata@0.1.5",
+  "_id": "@canner/slate-helper-block-adddata@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-W0qH5RJut5BWTjzFsxP8cqbfe84=",
+  "_location": "/@canner/slate-helper-block-adddata",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@canner/slate-helper-block-adddata@0.1.5",
+    "name": "@canner/slate-helper-block-adddata",
+    "escapedName": "@canner%2fslate-helper-block-adddata",
+    "scope": "@canner",
+    "rawSpec": "0.1.5",
+    "saveSpec": null,
+    "fetchSpec": "0.1.5"
+  },
+  "_requiredBy": [
+    "/@canner/slate-icon-align"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@canner/slate-helper-block-adddata/download/@canner/slate-helper-block-adddata-0.1.5.tgz",
+  "_spec": "0.1.5",
+  "_where": "/Users/yangkunhai/www/slate-editor",
+  "description": "A slate helper to add data to current block",
+  "directories": {
+    "test": "test"
+  },
+  "main": "lib/index.js",
+  "name": "@canner/slate-helper-block-adddata",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublish": "../../node_modules/.bin/babel src -d lib --copy-files",
+    "test": "../../node_modules/.bin/mocha ./test/index.js --compilers js:babel-register --bail --reporter=list"
+  },
+  "version": "0.1.5"
+}

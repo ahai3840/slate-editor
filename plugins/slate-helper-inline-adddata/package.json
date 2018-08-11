@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "@canner/slate-helper-inline-adddata@0.1.2",
+      "/Users/yangkunhai/www/slate-editor"
+    ]
+  ],
+  "_from": "@canner/slate-helper-inline-adddata@0.1.2",
+  "_id": "@canner/slate-helper-inline-adddata@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-BxslbSCiEFH9lFz2NPDbGhugMx8=",
+  "_location": "/@canner/slate-helper-inline-adddata",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@canner/slate-helper-inline-adddata@0.1.2",
+    "name": "@canner/slate-helper-inline-adddata",
+    "escapedName": "@canner%2fslate-helper-inline-adddata",
+    "scope": "@canner",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-align/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-bold/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-header/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-image/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-list/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-redo/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-table/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-underline/@canner/slate-editor-renderer",
+    "/@canner/slate-icon-undo/@canner/slate-editor-renderer"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@canner/slate-helper-inline-adddata/download/@canner/slate-helper-inline-adddata-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "/Users/yangkunhai/www/slate-editor",
+  "description": "A slate helper to add data to current inline",
+  "directories": {
+    "test": "test"
+  },
+  "main": "lib/index.js",
+  "name": "@canner/slate-helper-inline-adddata",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublish": "../../node_modules/.bin/babel src -d lib --copy-files",
+    "test": "../../node_modules/.bin/mocha ./test/index.js --compilers js:babel-register --bail --reporter=list"
+  },
+  "version": "0.1.2"
+}
