@@ -1,9 +1,10 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import blocklist, {DEFAULT} from '@canner/slate-helper-block-list';
 import EditList from 'slate-edit-list'
-import {OL_LIST, UL_LIST, LIST_ITEM} from '@canner/slate-constant/lib/blocks';
+import blocklist, {DEFAULT} from '../../slate-helper-block-list/src';
+
+import {OL_LIST, UL_LIST, LIST_ITEM} from '../../slate-constant/src/blocks';
 
 const {isList} = EditList(DEFAULT).utils;
 
