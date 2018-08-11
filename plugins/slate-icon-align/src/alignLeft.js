@@ -1,6 +1,6 @@
 // @flow
 import React, {Component} from 'react';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '../../slate-icon-shared/src/index';
 import alignDecorator from './alignDecorator';
 
 @alignDecorator('align', 'AlignLeft', 'left')

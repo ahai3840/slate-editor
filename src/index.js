@@ -4,7 +4,7 @@ import { Editor } from "slate-react";
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
 import Toolbar from './menuToolbar';
-import toolbar from 'slate-toolbar';
+import toolbar from '../plugins/slate-toolbar/index';
 import {BLOCKS} from '../plugins/slate-constant/src/index';
 import Bold, {BoldPlugin} from '../plugins/slate-icon-bold/src/index';
 import Clean from '../plugins/slate-icon-clean/src/index';
