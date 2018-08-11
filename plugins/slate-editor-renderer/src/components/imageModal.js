@@ -1,6 +1,6 @@
 // @flow
 import * as React from "react";
-import inlineAddData from "@canner/slate-helper-inline-adddata";
+import inlineAddData from "../../../slate-helper-inline-adddata/src/index";
 import type { Change, Range } from "slate";
 import { Modal, Form, Button, InputNumber, Checkbox } from "antd";
 

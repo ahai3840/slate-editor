@@ -19,7 +19,7 @@ import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align/
 import EditList from 'slate-edit-list';
 import TrailingBlock from 'slate-trailing-block'
 // default value
-import {DEFAULT as DEFAULTLIST} from '../plugins/slate-helper-block-list';
+import {DEFAULT as DEFAULTLIST} from '../plugins/slate-helper-block-list/src/index';
 
 import "github-markdown-css";
 
