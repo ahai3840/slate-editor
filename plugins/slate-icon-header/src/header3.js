@@ -1,7 +1,7 @@
 // @flow
 import React, {Component} from 'react';
-import ToolbarIcon from '@canner/slate-icon-shared';
-import {HEADING_3} from '@canner/slate-constant/lib/blocks';
+import ToolbarIcon from '../../slate-icon-shared/src/index';
+import {HEADING_3} from '../../slate-constant/src/blocks';
 import headerDecorator from './headerDecorator';
 
 @headerDecorator(HEADING_3, 'Header3')

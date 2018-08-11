@@ -7,11 +7,11 @@ import Header4Icon from './header4';
 import Header5Icon from './header5';
 import Header6Icon from './header6';
 import {applyChange} from './headerDecorator';
-import {HEADING_1, HEADING_2, HEADING_3, HEADING_4, HEADING_5, HEADING_6, PARAGRAPH} from '@canner/slate-constant/lib/blocks';
+import {HEADING_1, HEADING_2, HEADING_3, HEADING_4, HEADING_5, HEADING_6, PARAGRAPH} from '../../slate-constant/src/blocks';
 import isHotkey from 'is-hotkey';
 
-import commonNode from '@canner/slate-editor-renderer/lib/commonNode';
-import {nodeAttrs} from '@canner/slate-icon-shared';
+import commonNode from '../../slate-editor-renderer/src/commonNode';
+import {nodeAttrs} from '../../slate-icon-shared/src/index';
 
 const plugin = (type, tagName, hotkey) => {
   return {
