@@ -10,7 +10,7 @@ import Bold, {BoldPlugin} from '../plugins/slate-icon-bold/src/index';
 import Clean from '../plugins/slate-icon-clean/src/index';
 import {TablePlugin} from '../plugins/slate-icon-table/src/index';
 import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '../plugins/slate-icon-header/src/index';
-import {ImagePlugin} from '../plugins/slate-icon-image';
+import {ImagePlugin} from '../plugins/slate-icon-image/src/index';
 import {ListPlugin} from '../plugins/slate-icon-list/src/index';
 import Underline, {UnderlinePlugin} from '../plugins/slate-icon-underline/src/index';
 import {ParagraphPlugin} from '../plugins/slate-icon-shared/src/index';

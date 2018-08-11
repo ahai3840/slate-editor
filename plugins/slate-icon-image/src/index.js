@@ -1,10 +1,10 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import ToolbarIcon from '@canner/slate-icon-shared';
-import ImageUpload from '@canner/image-upload';
-import {IMAGE} from '@canner/slate-constant/lib/inlines';
-import imageNode from '@canner/slate-editor-renderer/lib/imageNode';
+import ToolbarIcon from '../../slate-icon-shared/src';
+import ImageUpload from '../../image-upload/src/index';
+import {IMAGE} from '../../slate-constant/src/inlines';
+import imageNode from '../../slate-editor-renderer/src/imageNode';
 
 export const ImagePlugin = (opt) => {
   const options = Object.assign({
