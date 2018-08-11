@@ -15,7 +15,7 @@ import {ListPlugin} from '../plugins/slate-icon-list/src/index';
 import Underline, {UnderlinePlugin} from '../plugins/slate-icon-underline/src/index';
 import {ParagraphPlugin} from '../plugins/slate-icon-shared/src/index';
 
-import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align';
+import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align/src/index';
 import EditList from 'slate-edit-list';
 import TrailingBlock from 'slate-trailing-block'
 // default value
