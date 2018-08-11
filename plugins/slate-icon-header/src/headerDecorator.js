@@ -2,7 +2,7 @@
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import {PARAGRAPH} from '../../slate-constant/src/blocks';
-import {haveBlocks} from '../../slate-util-have';
+import {haveBlocks} from '../../slate-util-have/src/index';
 
 export const applyChange = (change, type) => {
   const isActive = haveBlocks(change, type);
