@@ -63,7 +63,7 @@
     "build:flow": "flow-copy-source -v -i '**/test/**' src lib",
     "build:plugins": "babel plugins --out-dir lib/plugins",
     "clean": "rimraf lib dist",
-    "build": "babel src --out-dir lib && npm run build:plugins && npm run build:flow",
+    "build": "babel src --out-dir lib && npm run build:flow",
     "prepublish": "npm run clean && npm run check:src && npm run build",
     "check:src": "npm run lint",
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js --mode development",

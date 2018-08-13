@@ -4,22 +4,22 @@ import { Editor } from "slate-react";
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
 import Toolbar from './menuToolbar';
-import toolbar from '../plugins/slate-toolbar/index';
-import {BLOCKS} from '../plugins/slate-constant/src/index';
-import Bold, {BoldPlugin} from '../plugins/slate-icon-bold/src/index';
-import Clean from '../plugins/slate-icon-clean/src/index';
-import {TablePlugin} from '../plugins/slate-icon-table/src/index';
-import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '../plugins/slate-icon-header/src/index';
-import {ImagePlugin} from '../plugins/slate-icon-image/src/index';
-import {ListPlugin} from '../plugins/slate-icon-list/src/index';
-import Underline, {UnderlinePlugin} from '../plugins/slate-icon-underline/src/index';
-import {ParagraphPlugin} from '../plugins/slate-icon-shared/src/index';
+import toolbar from './plugins/slate-toolbar/index';
+import {BLOCKS} from './plugins/slate-constant/src/index';
+import Bold, {BoldPlugin} from './plugins/slate-icon-bold/src/index';
+import Clean from './plugins/slate-icon-clean/src/index';
+import {TablePlugin} from './plugins/slate-icon-table/src/index';
+import { HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from './plugins/slate-icon-header/src/index';
+import {ImagePlugin} from './plugins/slate-icon-image/src/index';
+import {ListPlugin} from './plugins/slate-icon-list/src/index';
+import Underline, {UnderlinePlugin} from './plugins/slate-icon-underline/src/index';
+import {ParagraphPlugin} from './plugins/slate-icon-shared/src/index';
 
-import { AlignCenter, AlignLeft, AlignRight } from '../plugins/slate-icon-align/src/index';
+import { AlignCenter, AlignLeft, AlignRight } from './plugins/slate-icon-align/src/index';
 import EditList from 'slate-edit-list';
 import TrailingBlock from 'slate-trailing-block'
 // default value
-import {DEFAULT as DEFAULTLIST} from '../plugins/slate-helper-block-list/src/index';
+import {DEFAULT as DEFAULTLIST} from './plugins/slate-helper-block-list/src/index';
 
 import "github-markdown-css";
 

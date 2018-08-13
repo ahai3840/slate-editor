@@ -5,13 +5,13 @@ import styled from 'styled-components';
 import {Container} from './components/item';
 import FullScreenIcon from './components/fullScreen';
 
-import {AlignCenter, AlignLeft, AlignRight} from '../plugins/slate-icon-align/src/index';
-import Table from '../plugins/slate-icon-table/src/index';
-import {Header1, Header2, Header3} from '../plugins/slate-icon-header/src/index';
-import Image from '../plugins/slate-icon-image/src/index';
-import {OlList, UlList} from '../plugins/slate-icon-list/src/index';
-import Undo from '../plugins/slate-icon-undo/src/index';
-import Redo from '../plugins/slate-icon-redo/src/index';
+import {AlignCenter, AlignLeft, AlignRight} from './plugins/slate-icon-align/src/index';
+import Table from './plugins/slate-icon-table/src/index';
+import {Header1, Header2, Header3} from './plugins/slate-icon-header/src/index';
+import Image from './plugins/slate-icon-image/src/index';
+import {OlList, UlList} from './plugins/slate-icon-list/src/index';
+import Undo from './plugins/slate-icon-undo/src/index';
+import Redo from './plugins/slate-icon-redo/src/index';
 
 type Props = {
   value: Value,
