@@ -50,24 +50,21 @@ export default class Toolbar extends React.Component<Props> {
     const { value, onChange, goFull, isFull, serviceConfig, galleryConfig, menuToolbarOption } = this.props;
 
     const options = menuToolbarOption || [
-      { type: Undo, title: "Undo" },
-      { type: Redo, title: "Redo" },
+      { type: Undo, title: "撤销" },
+      { type: Redo, title: "重做" },
       'seperator',
-      { type: Header1, title: "Header One" },
-      { type: Header2, title: "Header Two" },
-      { type: Header3, title: "Header Three" },
+      { type: Header1, title: "标题一" },
+      { type: Header2, title: "标题二" },
+      { type: Header3, title: "标题三" },
       'seperator',
-      { type: AlignLeft, title: "Align Left" },
-      { type: AlignCenter, title: "Align Center" },
-      { type: AlignRight, title: "Align Right" },
+      { type: AlignLeft, title: "居左t" },
+      { type: AlignCenter, title: "居中" },
+      { type: AlignRight, title: "居右" },
       'seperator',
-      { type: OlList, title: "Order List" },
-      { type: UlList, title: "Unorder List" },
+      { type: OlList, title: "编号列表" },
+      { type: UlList, title: "项目符号列表" },
       'seperator',
-      { type: 'image', title: "Image" },
-      { type: Table, title: "Table" },
-      'seperator',
-      { type: 'fullScreen', title: "Full Screen" },
+      { type: Table, title: "表格" },
     ]
 
     return (
